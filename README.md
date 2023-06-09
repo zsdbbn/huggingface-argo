@@ -32,11 +32,14 @@ abcdefg-image-and-3d-model-creator.hf.space
 用户名 abcdefg
 space 名 image-and-3d-model-creator
 
+第二种方法查看域名 鼠标右键点 view frame source
+![1686297209557](image/README/1686297209557.png)
+
 ## 环境变量说明
 
 <https://github.com/3Kmfi6HP/argo-airport-paas/tree/main#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AF%B4%E6%98%8E>
 
-***环境变量 PORT 一定要设置 7860***
+**_环境变量 PORT 一定要设置 7860_**
 
 ## 推荐使用 SSH
 
