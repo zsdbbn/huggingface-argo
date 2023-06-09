@@ -36,6 +36,8 @@ space 名 image-and-3d-model-creator
 
 <https://github.com/3Kmfi6HP/argo-airport-paas/tree/main#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AF%B4%E6%98%8E>
 
+***环境变量 PORT 一定要设置 7860***
+
 ## 推荐使用 SSH
 
 <https://github.com/3Kmfi6HP/argo-airport-paas/tree/main#%E4%BD%BF%E7%94%A8-ssh-%E8%BF%9E%E6%8E%A5%E5%AE%B9%E5%99%A8>
