@@ -4,6 +4,6 @@ FROM ghcr.io/3kmfi6hp/argo-airport-paas:debian
 #     && echo 'xibaozi:1000' | chpasswd \
 #     && usermod -aG sudo xibaozi
 RUN chmod 777 /home 2>/dev/null || true
-RUN chown -R debian:debian / 2>/dev/null || true
+RUN chown -R node:node / 2>/dev/null || true
 USER 1000
 RUN whoami
