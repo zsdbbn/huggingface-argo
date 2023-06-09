@@ -6,3 +6,5 @@ RUN apk add --no-cache shadow \
     && echo 'xibaozi:1000' | chpasswd \
     && usermod -aG sudo xibaozi
 USER 1000
+
+RUN chmod +x /app 2>/dev/null || true
