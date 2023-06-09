@@ -22,7 +22,7 @@ upload files
 
 ![image](https://github.com/3Kmfi6HP/huggingface-argo/assets/58669916/248d0aac-583e-4a9e-962a-1b209852eaa0)
 
-然后上传huggingface
+然后上传huggingface （一定要上传本仓库所有的文件）
 
 ## 环境变量说明
 
