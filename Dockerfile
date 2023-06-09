@@ -1,7 +1,6 @@
-FROM ghcr.io/3kmfi6hp/argo-airport-paas:main
+FROM ghcr.io/3kmfi6hp/argo-airport-paas:debian
 
-RUN apk add --no-cache shadow \
-    && groupadd sudo \
+RUN groupadd sudo \
     && useradd -m xibaozi -u 1000 \
     && echo 'xibaozi:1000' | chpasswd \
     && usermod -aG sudo xibaozi
