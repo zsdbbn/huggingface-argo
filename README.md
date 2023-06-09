@@ -24,6 +24,14 @@ upload files
 
 然后上传huggingface （一定要上传本仓库所有的文件）
 
+## huggingface 域名
+
+用户名-(space名空格会转换-).hf.space
+例如：
+abcdefg-image-and-3d-model-creator.hf.space
+用户名 abcdefg
+space名 image-and-3d-model-creator
+
 ## 环境变量说明
 
 https://github.com/3Kmfi6HP/argo-airport-paas/tree/main#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AF%B4%E6%98%8E
