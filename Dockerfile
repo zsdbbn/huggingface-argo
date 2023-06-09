@@ -1,9 +1,12 @@
-FROM ghcr.io/3kmfi6hp/argo-airport-paas:debian
+FROM ghcr.io/3kmfi6hp/argo-airport-paas:main
 
-# RUN useradd -m xibaozi -u 1000 \
-#     && echo 'xibaozi:1000' | chpasswd \
-#     && usermod -aG sudo xibaozi
+RUN apk add --no-cache shadow \
+    && groupadd sudo \
+    && useradd -m xibaozi -u 1000 \
+    && echo 'xibaozi:1000' | chpasswd \
+    && usermod -aG sudo xibaozi
+    
 RUN chmod 777 /home 2>/dev/null || true
-RUN chown -R node:node / 2>/dev/null || true
+RUN chown -R xibaozi:xibaozi / 2>/dev/null || true
 USER 1000
 RUN whoami
